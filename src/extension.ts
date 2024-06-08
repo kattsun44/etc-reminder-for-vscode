@@ -1,8 +1,9 @@
 import * as vscode from 'vscode';
+import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
   vscode.workspace.onDidSaveTextDocument((document: vscode.TextDocument) => {
-    vscode.window.showInformationMessage(`${document.fileName} is ETC?`);
+    vscode.window.showInformationMessage(`Is ${path.basename(document.fileName)} ETC?`);
   });
 
   const disposable = vscode.commands.registerCommand('etc-reminder.remindEtc', () => {
