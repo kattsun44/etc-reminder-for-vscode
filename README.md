@@ -3,6 +3,8 @@
 This is ETC (Easier To Change) Reminder.  
 Each time you save a file, the message "Is the 'filename' ETC?" message is displayed.
 
+https://github.com/kattsun44/etc-reminder-for-vscode/assets/22269140/f20d4fb1-cb9b-4fd5-87ba-925cc7fe018e
+
 ## Usage
 ```shell
 git clone https://github.com/kattsun44/etc-reminder-for-vscode.git
