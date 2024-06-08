@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "etc-reminder.helloWorld",
-        "title": "Hello World"
+        "command": "etc-reminder.remindEtc",
+        "title": "Remind ETC"
       }
     ]
   },
